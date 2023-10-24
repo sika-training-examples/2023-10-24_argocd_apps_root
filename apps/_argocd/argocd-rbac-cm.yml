@@ -8,5 +8,5 @@ data:
   policy.default: ""
   policy.csv: |
     g, 82490324-9599-4264-8464-f8207af98993, role:admin
-    p, 8fdffbea-5967-4edd-adc7-f0e13fd0aeac, projects, get, foo, allow
-    p, 8fdffbea-5967-4edd-adc7-f0e13fd0aeac, projects, get, update, allow
+    p, 8fdffbea-5967-4edd-adc7-f0e13fd0aeac, projects, get,    foo, allow
+    p, 8fdffbea-5967-4edd-adc7-f0e13fd0aeac, projects, update, foo, allow
