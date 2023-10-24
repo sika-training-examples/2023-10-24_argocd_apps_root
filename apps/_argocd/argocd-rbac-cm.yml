@@ -8,9 +8,9 @@ data:
   policy.default: ""
   policy.csv: |
     g, 82490324-9599-4264-8464-f8207af98993, role:admin
-    p, 8fdffbea-5967-4edd-adc7-f0e13fd0aeac, projects, get, foo, allow
-    p, 8fdffbea-5967-4edd-adc7-f0e13fd0aeac, projects, update, foo, allow
-    p, 8fdffbea-5967-4edd-adc7-f0e13fd0aeac, applications, get, foo/*, allow
-    p, 8fdffbea-5967-4edd-adc7-f0e13fd0aeac, applications, create, foo/*, allow
-    p, 8fdffbea-5967-4edd-adc7-f0e13fd0aeac, applications, update, foo/*, allow
-    p, 8fdffbea-5967-4edd-adc7-f0e13fd0aeac, applications, delete, foo*, allow
+
+    g, 8fdffbea-5967-4edd-adc7-f0e13fd0aeac, role:foo
+    p, role:foo, applications, get, foo/*, allow
+    p, role:foo, applications, create, foo/*, allow
+    p, role:foo, applications, update, foo/*, allow
+    p, role:foo, applications, delete, foo/*, allow
