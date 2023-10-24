@@ -13,4 +13,4 @@ data:
     p, 8fdffbea-5967-4edd-adc7-f0e13fd0aeac, applications, get, foo/*, allow
     p, 8fdffbea-5967-4edd-adc7-f0e13fd0aeac, applications, create, foo/*, allow
     p, 8fdffbea-5967-4edd-adc7-f0e13fd0aeac, applications, update, foo/*, allow
-    p, 8fdffbea-5967-4edd-adc7-f0e13fd0aeac, applications, delete, foo/*, allow
+    p, 8fdffbea-5967-4edd-adc7-f0e13fd0aeac, applications, delete, foo*, allow
