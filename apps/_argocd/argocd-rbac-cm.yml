@@ -10,7 +10,7 @@ data:
     g, 82490324-9599-4264-8464-f8207af98993, role:admin
 
     g, 8fdffbea-5967-4edd-adc7-f0e13fd0aeac, role:foo
-    p, role:foo, applications, get, foo/*, allow
+    p, role:foo, applications, get, *, allow
     p, role:foo, applications, create, foo/*, allow
     p, role:foo, applications, update, foo/*, allow
     p, role:foo, applications, delete, foo/*, allow
