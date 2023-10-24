@@ -8,9 +8,9 @@ data:
   exec.enabled: "true"
   oidc.config: |
     name: Azure
-    issuer: https://login.microsoftonline.com/373c75ef-cf99-490c-a905-4a1934945e40/v2.0
-    clientID: 0bd8dc90-a832-4769-9027-460c6a28f678
-    clientSecret: NMQ8Q~n1IMbtcn_D4pIqBFrLHqfsI6p2TEOfRbWi
+    issuer: https://gitlab.sikademo.com
+    clientID: 774257b420317abd47f2cf0eb59553e9c02cb7ec18e45fd79045eb959d849036
+    clientSecret: 5971604318079f8ac5fce5eae807c681feee4a5dd758b55decc705e9333b070e
     requestedIDTokenClaims:
       groups:
           essential: true
