@@ -4,7 +4,7 @@ metadata:
   name: argocd-rbac-cm
   namespace: argocd
 data:
-  scopes: '[read_user]'
+  scopes: '[groups_direct]'
   policy.default: ""
   policy.csv: |
     g, 82490324-9599-4264-8464-f8207af98993, role:admin
