@@ -10,5 +10,7 @@ spec:
   destinations:
   - namespace: 'bar'
     server: '*'
+  - namespace: 'argocd'
+    server: '*'
   sourceRepos:
   - '*'
